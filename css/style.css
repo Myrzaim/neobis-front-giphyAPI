@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     width: 100%;
     display: flex;
@@ -28,11 +32,12 @@
     border-radius: 2rem;
 }
 .navbar-search>input{
-    width: 15rem;
+    width: 13rem;
     height: 3rem;
     border-radius:2rem;
     font-size: 20px;
     border: none;
+    margin-left: 1rem;
 }
 .navbar-search>button{
     background-color: white;
@@ -41,4 +46,18 @@
     width: 3rem;
     margin-left: 0;
     border: none;
+}
+*:focus {
+    outline: none;
+}
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 24rem;
+    height: 18rem;
+    margin-bottom: 1.5rem;
 }
